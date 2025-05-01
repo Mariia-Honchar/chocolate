@@ -1,0 +1,38 @@
+.header{
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+.header__logo{
+    height: 169px;
+}
+
+.header__nav{
+    display: none;
+}
+
+.header__icons{
+    display: none;
+}
+
+@media screen and(min-width:734px){
+    .header{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:1166px){
+    .header{
+        padding-top: 30px;
+        padding-bottom: 26px;
+    }
+
+    .header__nav{
+        display: block;
+    }
+
+    .header__icons{
+        display: block;
+    }
+  }

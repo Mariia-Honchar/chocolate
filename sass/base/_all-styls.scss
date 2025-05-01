@@ -1,113 +1,47 @@
-.site-header {
-    padding: 24px 40px;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 0 0 30px 30px;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .logo img {
-    height: 24px;
-  }
-  
-  .main-nav ul {
-    display: flex;
-    gap: 24px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .main-nav a {
-    text-decoration: none;
-    color: #111;
-    font-weight: 500;
-    font-size: 14px;
-    transition: color 0.3s;
-  }
-  
-  .main-nav a:hover {
-    color: #fd9222;
-  }
-  
-  .header-icons a img {
-    height: 20px;
-    margin-left: 18px;
-  }
+body{
+  margin: 0;
+  background-color: white;
+}
 
+*{
+  box-sizing: border-box;
+}
 
-  .hero {
-    position: relative;
-    background-color: #1e1823;
-    border-radius: 30px;
-    color: #fff;
-    height: 600px;
-    background-image: url('images/hero-image.jpg'); /* замени путь, если нужно */
-    background-size: cover;
-    background-position: center right;
-    overflow: hidden;
-    padding: 0 40px;
-    display: flex;
-    align-items: flex-end;
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, p{
+margin: 0;
+padding: 0;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 365px;
+}
+
+@media screen and (min-width:734px){
+  .container{
+    width: 734px;
   }
-  
-  .hero-content {
-    max-width: 550px;
-    margin-bottom: 40px;
+}
+
+@media screen and (min-width:1166px){
+  .container{
+    width: 1166px;
   }
-  
-  .text {
-    font-size: 28px;
-    line-height: 1.4;
-    margin-bottom: 32px;
-    font-weight: 500;
-  }
-  
-  .hero-buttons {
-    display: flex;
-    gap: 14px;
-    margin-bottom: 40px;
-  }
-  
-  .btn {
-    padding: 14px 28px;
-    border-radius: 100px;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  .btn-orange {
-    background-color: #fd9222;
-    color: #fff;
-  }
-  
-  .btn-outline {
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-  }
-  
-  .hero-scroll {
-    position: absolute;
-    right: 40px;
-    bottom: 30px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 14px;
-    color: #fff;
-  }
-  
-  .hero-scroll .icon {
-    fill: #fd9222;
-  }
+}
