@@ -15,14 +15,18 @@
     display: none;
 }
 
-@media screen and(min-width:734px){
+.header__list{
+    display: none;
+}
+
+@media screen and (min-width: 734px){
     .header{
         padding-top: 30px;
         padding-bottom: 30px;
     }
 }
 
-@media screen and (min-width:1166px){
+@media screen and (min-width: 1166px){
     .header{
         padding-top: 30px;
         padding-bottom: 26px;
@@ -34,5 +38,32 @@
 
     .header__icons{
         display: block;
+    }
+
+    .header__list{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        align-items: center;
+    }
+    .header__wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-icon{
+        width: 24px;
+        height: 24px;
+        fill: white;
+        stroke-width: 2px;
+        stroke: #111;
+    }
+
+    .header-icon:hover{
+        stroke: orange;
     }
   }
