@@ -51,7 +51,7 @@ h1, h2, h3, p {
 }
 
 .header__logo {
-  height: 169px;
+  width: 169px;
 }
 
 .header__nav {
@@ -81,7 +81,10 @@ h1, h2, h3, p {
     display: block;
   }
   .header__icons {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 18px;
   }
   .header__list {
     display: -webkit-box;
@@ -118,5 +121,118 @@ h1, h2, h3, p {
   }
   .header-icon:hover {
     stroke: orange;
+  }
+  .header__link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #111;
+  }
+  .header__link:hover {
+    color: orange;
+  }
+}
+.hero {
+  padding-bottom: 72px;
+}
+
+.hero__wrap {
+  background-image: url("./../../img/chocolatecovered.jpg");
+  padding-top: 395px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.hero__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.hero__btn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 12px 28px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hero__btn:hover {
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+.hero__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.hero__scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.hero__text {
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.hero__icon {
+  fill: orange;
+}
+
+.hero__icon-box {
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 734px) {
+  .hero__title {
+    font-size: 28px;
+    line-height: 34px;
+    width: 484px;
+  }
+  .hero__wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }/*# sourceMappingURL=maine.css.map */

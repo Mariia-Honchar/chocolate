@@ -4,7 +4,7 @@
 }
 
 .header__logo{
-    height: 169px;
+    width: 169px;
 }
 
 .header__nav{
@@ -37,7 +37,8 @@
     }
 
     .header__icons{
-        display: block;
+        display: flex;
+        gap: 18px;
     }
 
     .header__list{
@@ -65,5 +66,16 @@
 
     .header-icon:hover{
         stroke: orange;
+    }
+
+    .header__link{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        color: #111;
+    }
+
+    .header__link:hover{
+        color: orange;
     }
   }
