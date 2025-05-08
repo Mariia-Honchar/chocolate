@@ -137,7 +137,7 @@ h1, h2, h3, p {
 }
 
 .hero__wrap {
-  background-image: url("./../../img/chocolatecovered.jpg");
+  background-image: url("./../img/chocolatecovered.jpg");
   padding-top: 395px;
   padding-bottom: 20px;
   padding-left: 20px;
