@@ -1,159 +1,205 @@
+1⃣ index.html Змінити повністю
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="./css/maine.min.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container header__wrap">
-      <a href="#" class="header__logo"><img src="./img/logo.png" alt="Simply Chocolate logo"></a>
-      <nav class="header__nav">
-        <ul class="header__list">
-          <li class="header__item"><a href="#" class="header__link">Home</a></li>
-          <li class="header__item"><a href="#" class="header__link">How it’s made?</a></li>
-          <li class="header__item"><a href="#" class="header__link">Our products</a></li>
-          <li class="header__item"><a href="#" class="header__link">Top sellers</a></li>
-          <li class="header__item"><a href="#" class="header__link">Chocolate is loved</a></li>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/maine.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__wrap">
+        <a href="#" class="header__logo"
+          ><img src="./img/logo.png" alt="Simply Chocolate logo"/></a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link">Home</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">How it’s made?</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Our products</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Top sellers</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__icons">
+          <a href="#">
+            <svg class="header-icon">
+              <use href="./img/symbol-defs.svg#icon-instagram"></use>
+            </svg></a>
+          <a href="#">
+            <svg class="header-icon">
+              <use href="./img/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container hero__wrap">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!</h1>
+          <div class="hero__wraper">
+            <div class="hero__buttons">
+              <button class="hero__btn">Buy now</button>
+              <button class="hero__btn">How it’s made</button>
+            </div>
+            <div class="hero__scroll">
+              <span class="hero__text">scroll down</span>
+              <div class="hero__icon-box">
+                <svg class="hero__icon" width="16" height="16">
+                  <use href="./img/symbol-defs.svg#icon-arrow"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <svg class="advantages__icon">
+              <use href="./img/symbol-defs.svg#icon-unsurpassedtaste"></use></svg>
+            <h3 class="advantages__title">Unsurpassed taste</h3>
+            <p class="advantages__text">
+              Crafted with the finest quality cocoa beans and a dedication to
+              perfection, each bite is a decadent experience that simply cannot
+              be matched. Savor the richness and complexity of our Unsurpassed
+              Taste and discover a new level of chocolate bliss.
+            </p>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__icon">
+              <use href="./img/symbol-defs.svg#icon-affordableprice"></use>
+            </svg>
+            <h3 class="advantages__title">Affordable price</h3>
+            <p class="advantages__text">
+              Indulge in high-quality chocolate without breaking the bank with
+              Simply Chocolate's selection of affordable treats. Enjoy
+              mouth-watering truffles and velvety chocolate bars without
+              sacrificing taste or quality. Browse our selection and indulge in
+              affordable luxury today.
+            </p>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__icon">
+              <use href="./img/symbol-defs.svg#icon-ownproduction"></use>
+            </svg>
+            <h3 class="advantages__title">Own production</h3>
+            <p class="advantages__text">
+              We take pride in our own production process, ensuring that every
+              step is carefully crafted to perfection. From selecting the finest
+              ingredients to handcrafting each piece, our attention to detail is
+              evident in every bite.
+            </p>
+          </li>
         </ul>
-      </nav>
-      <div class="header__icons">
-        <a href="#">
-          <svg class="header-icon">
-            <use href="./img/symbol-defs.svg#icon-instagram"></use>
-          </svg>
-        </a>
-        <a href="#">
-          <svg class="header-icon">
-            <use href="./img/symbol-defs.svg#icon-twitter"></use>
-          </svg>
-        </a>
       </div>
-    </div>
-  </header>
-  
-  <section class="hero">
-    <div class="container hero__wrap">
-    <div class="hero__content">
-      <h1 class="hero__title">Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</h1>
-      <div class="hero__wraper">
-      <div class="hero__buttons">
-        <button class="hero__btn">
-          Buy now
-        </button>
-        <button class="hero__btn">
-          How it’s made
-        </button>
+    </section>
+    <section class="top-sellers">
+      <div class="container">
+        <h2 class="top-sellers__title">
+          <span class="orange">Top</span>Sellers
+        </h2>
+        <ul class="top-sellers__list">
+          <li class="top-sellers__item">
+            <img
+              src="./img/chocolatebar1.jpg"
+              alt="Chocolate with nuts"
+              class="top-sellers__image"
+            />
+          </li>
+          <li class="top-sellers__item">
+            <img
+              src="./img/chocolatebar2.jpg"
+              alt="Chocolate with dried fruits"
+              class="top-sellers__image"
+            />
+          </li>
+          <li class="top-sellers__item">
+            <img
+              src="./img/chocolatebar3.jpg"
+              alt="Stacked chocolate bars"
+              class="top-sellers__image"
+            />
+          </li>
+        </ul>
+        <div class="top-sellers__box">
+          <p class="top-sellers__text">
+            Crazy enough chocolate originates from a bean just like the coffee
+            bean called Cacao. Cacao has been around for thousands of years and
+            was first discovered by the Native American tribe called the Mayans.
+          </p>
+          <button class="top-sellers__btn" type="button">Buy now</button>
+        </div>
       </div>
-    <div class="hero__scroll">
-      <span class="hero__text">scroll down</span>
-      <div class="hero__icon-box">
-      <svg class="hero__icon" width="16" height="16">
-        <use href="./img/symbol-defs.svg#icon-arrow">
-        </use>
-      </svg>
-    </div>
-    </div>
-  </div>
-  </div>
-</div>
-  </section>
-
-  <section class="advantages">
-    <div class="container">
-      <ul class="advantages__list">
-        <li class="advantages__item">
-          <svg class="advantages__icon">
-            <use href="./img/symbol-defs.svg#icon-unsurpassedtaste"></use>
-          </svg>
-          <h3 class="advantages__title">Unsurpassed taste</h3>
-          <p class="advantages__text">
-            Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.
-          </p>
-        </li>
-  
-        <li class="advantages__item">
-          <svg class="advantages__icon">
-            <use href="./img/symbol-defs.svg#icon-affordableprice"></use>
-          </svg>
-          <h3 class="advantages__title">Affordable price</h3>
-          <p class="advantages__text">
-            Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.
-          </p>
-        </li>
-  
-        <li class="advantages__item">
-          <svg class="advantages__icon">
-            <use href="./img/symbol-defs.svg#icon-ownproduction"></use>
-          </svg>
-          <h3 class="advantages__title">Own production</h3>
-          <p class="advantages__text">
-            We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.
-          </p>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-
-  <section class="top-sellers">
-    <div class="container">
-      <h2 class="top-sellers__title"><span class="orange">Top</span> Sellers</h2>
-  
-      <ul class="top-sellers__list">
-        <li class="top-sellers__item">
-          <img src="./img/chocolatebar1.jpg" alt="Chocolate with nuts" class="top-sellers__image">
-        </li>
-        <li class="top-sellers__item">
-          <img src="./img/chocolatebar2.jpg" alt="Chocolate with dried fruits" class="top-sellers__image">
-        </li>
-        <li class="top-sellers__item">
-          <img src="./img/chocolatebar3.jpg" alt="Stacked chocolate bars" class="top-sellers__image">
-        </li>
-      </ul>
-  
-      <p class="top-sellers__text">
-        Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. 
-        Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.
-      </p>
-  
-      <button class="top-sellers__btn" type="button">Buy now</button>
-    </div>
-  </section>
-
-
-  <footer class="footer">
-    <h2 class="footer-title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
-    <p class="footer-desc">
-      From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more.
-    </p>
-    <button class="footer-btn">Subscribe</button>
-  </footer>
-  
-  <div class="modal">
-    <div class="modal-window">
-      <span class="modal-close">&times;</span>
-      <h3 class="modal-title">Leave a review about our chocolate</h3>
-      <input class="modal-input" type="text" placeholder="Name">
-      <input class="modal-input" type="email" placeholder="Email">
-      <div class="phone-block">
-        <div class="modal-flag">+380</div>
-        <input class="modal-input phone" type="text" placeholder="Phone number">
+    </section>
+    <section class="sub">
+      <div class="container">
+        <h2 class="sub__title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+        <p class="sub__desc">
+          From the velvety texture to the rich and complex flavor, our New
+          Chocolate is a true indulgence that will leave you craving more. Made
+          with only the finest ingredients and handcrafted with the utmost care,
+          each piece is a work of art that is sure to please.
+        </p>
+        <button class="sub__btn" data-modal-open>Subscribe</button>
       </div>
-      <textarea class="modal-textarea" rows="4" placeholder="Enter text"></textarea>
-      <button class="modal-send">Send</button>
-    </div>
-  </div>
-  <script src="./js/script.js"></script>
-</body>
+      <!-- Modal -->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button data-modal-close type="button" class="modal__close-button">✖</button>
+          <!-- Вміст модалки -->
+          <div class="modal-box">
+            <h2 class="modal-title">LEAVE A REVIEW ABOUT OUR CHOCOLATE</h2>
+            <form class="modal-form">
+              <input type="text" class="modal-input" placeholder="Name" />
+              <input type="email" class="modal-input" placeholder="Email" />
+              <input type="tel" class="modal-input" placeholder="Phone number"/>
+              <button class="modal-form-btn" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer__wrap">
+        <a href="#" class="footer__logo"
+          ><img src="./img/logo.png" alt="Simply Chocolate logo"/></a>
+        <div class="footer__icons">
+          <a href="#">
+            <svg class="footer-icon"><use href="./img/symbol-defs.svg#icon-instagram"></use></svg></a>
+          <a href="#">
+            <svg class="footer-icon">
+              <use href="./img/symbol-defs.svg#icon-twitter"></use></svg></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
 </html>

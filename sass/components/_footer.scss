@@ -1,0 +1,31 @@
+.footer{
+    background-color: #1E1823;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo{
+    padding: 12px 28px;
+    background-color: white;
+    border-radius: 50px;
+    width: 200px;
+}
+    .footer-icon{
+        width: 24px;
+        height: 24px;
+        fill: transparent;
+        stroke-width: 2px;
+        stroke: white;
+    }
+
+    .footer-icon:hover{
+        stroke: orange;
+    }
+    .footer__icons{
+        display: flex;
+        gap: 14px;
+    }
