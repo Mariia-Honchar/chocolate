@@ -508,7 +508,67 @@ h1, h2, h3, p {
 }
 
 .modal {
-  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  min-height: 400px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 311px;
+  padding-top: 32px;
+  padding-right: 14px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+
+.modal__close-button {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-title {
+  line-height: 24px;
+  font-size: 20px;
+  margin-bottom: 32px;
+  font-family: "Montserrat";
+}
+
+.madal-orange {
+  color: orange;
+}
+
+.modal-input {
+  width: 263px;
+  height: 45px;
+  border: 1px solid #404040;
+  border-radius: 8px;
+  padding-top: 2px;
+  padding-left: 18px;
+  font-size: 14px;
+  color: #404040;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 @media screen and (min-width: 734px) {
@@ -526,5 +586,8 @@ h1, h2, h3, p {
     width: 467px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .modal {
+    width: 517px;
   }
 }/*# sourceMappingURL=maine.css.map */
