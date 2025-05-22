@@ -118,6 +118,8 @@ h1, h2, h3, p {
     fill: white;
     stroke-width: 2px;
     stroke: #111;
+    -webkit-transition: stroke 250ms ease;
+    transition: stroke 250ms ease;
   }
   .header-icon:hover {
     stroke: orange;
@@ -127,9 +129,21 @@ h1, h2, h3, p {
     font-weight: 500;
     line-height: 16px;
     color: #111;
+    -webkit-transition: color 250ms ease;
+    transition: color 250ms ease;
   }
   .header__link:hover {
     color: orange;
+  }
+  .header__logo {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+  }
+  .header__logo:hover {
+    -webkit-transform: scale(1.025);
+            transform: scale(1.025);
   }
 }
 .hero {
@@ -165,6 +179,8 @@ h1, h2, h3, p {
   color: white;
   font-size: 14px;
   font-weight: 500;
+  -webkit-transition: background-color 250ms ease, border 250ms ease;
+  transition: background-color 250ms ease, border 250ms ease;
 }
 
 .hero__btn:hover {
@@ -357,6 +373,8 @@ h1, h2, h3, p {
   padding: 12px 28px;
   color: white;
   font-size: 14px;
+  -webkit-transition: background-color 250ms ease;
+  transition: background-color 250ms ease;
 }
 
 .top-sellers__btn:hover {
@@ -417,6 +435,15 @@ h1, h2, h3, p {
   }
   .top-sellers__image {
     width: 368px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    cursor: pointer;
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+  }
+  .top-sellers__image:hover {
+    -webkit-transform: scale(1.025);
+            transform: scale(1.025);
   }
 }
 .footer {
@@ -442,6 +469,15 @@ h1, h2, h3, p {
   background-color: white;
   border-radius: 50px;
   width: 200px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+}
+
+.footer__logo:hover {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
 }
 
 .footer-icon {
@@ -450,6 +486,8 @@ h1, h2, h3, p {
   fill: transparent;
   stroke-width: 2px;
   stroke: white;
+  -webkit-transition: stroke 250ms ease;
+  transition: stroke 250ms ease;
 }
 
 .footer-icon:hover {
@@ -501,6 +539,8 @@ h1, h2, h3, p {
   padding: 12px 28px;
   color: white;
   font-size: 14px;
+  -webkit-transition: background-color 250ms ease;
+  transition: background-color 250ms ease;
 }
 
 .sub__btn:hover {
@@ -698,5 +738,7 @@ h1, h2, h3, p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    -webkit-transition: background-color 250ms ease;
+    transition: background-color 250ms ease;
   }
 }/*# sourceMappingURL=maine.css.map */

@@ -13,13 +13,20 @@
     background-color: white;
     border-radius: 50px;
     width: 200px;
+     transform: scale(1);
+        transition-duration: 250ms;
 }
+.footer__logo:hover{
+    transform: scale(1.025);
+}
+
     .footer-icon{
         width: 24px;
         height: 24px;
         fill: transparent;
         stroke-width: 2px;
         stroke: white;
+        transition: stroke 250ms ease;
     }
 
     .footer-icon:hover{

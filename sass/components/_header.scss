@@ -19,6 +19,8 @@
     display: none;
 }
 
+
+
 @media screen and (min-width: 734px){
     .header{
         padding-top: 30px;
@@ -62,6 +64,7 @@
         fill: white;
         stroke-width: 2px;
         stroke: #111;
+        transition: stroke 250ms ease;
     }
 
     .header-icon:hover{
@@ -73,9 +76,19 @@
         font-weight: 500;
         line-height: 16px;
         color: #111;
+        transition: color 250ms ease;
     }
 
     .header__link:hover{
         color: orange;
+    }
+
+    .header__logo{
+        transform: scale(1);
+        transition-duration: 250ms;
+    }
+
+    .header__logo:hover{
+        transform: scale(1.025);
     }
   }

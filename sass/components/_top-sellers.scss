@@ -38,7 +38,9 @@
     padding: 12px 28px;
     color: white;
     font-size: 14px;
+    transition: background-color 250ms ease;
 }
+
 .top-sellers__btn:hover{
 background-color: rgb(255, 145, 0)}
 
@@ -89,5 +91,11 @@ background-color: rgb(255, 145, 0)}
 }
 .top-sellers__image{
     width: 368px;
+    transform: scale(1);
+    cursor: pointer;
+    transition-duration: 250ms;
+}
+.top-sellers__image:hover{
+    transform: scale(1.025);
 }
 }
