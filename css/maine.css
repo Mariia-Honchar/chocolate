@@ -312,12 +312,12 @@ h1, h2, h3, p {
 @media screen and (min-width: 1166px) {
   .advantages__item:nth-child(3) {
     border-left: 1px solid white;
-    width: 366;
+    width: 366px;
     padding-left: 30px;
   }
   .advantages__item:nth-child(1) {
     border-right: 1px solid white;
-    width: 366;
+    width: 366px;
     padding-right: 30px;
   }
   .advantages__list {
